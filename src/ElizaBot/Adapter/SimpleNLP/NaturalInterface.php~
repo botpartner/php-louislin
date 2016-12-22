@@ -1,0 +1,23 @@
+<?php
+namespace JYYAN\ElizaBot\Interface;
+
+interface Natural{
+
+  /*
+   *
+   * @param $message the str which want to join into NLP
+   * */
+  public function push($message);
+
+  /*
+   * check it
+   * */
+  public function valid();
+
+  /*
+   * @return JYYAN\ElizaBot\Adapter\SimpleNLP\Result
+   * */
+  public function get();
+
+}
+

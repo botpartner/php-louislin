@@ -1,0 +1,34 @@
+{
+  "name": "jyyan/eliza",
+  "description": "A Eliza like chat agent",
+  "homepage": "https://github.com/botpartner/php-louis",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "JunYuan Yan",
+      "email": "jyyan.tw@gmail.com",
+      "homepage": "http://jyyan.tw",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "guzzlehttp/guzzle": "^5.3",
+    "google/cloud": "^0.11.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8.24",
+    "phpmd/phpmd": "~2.4",
+    "squizlabs/php_codesniffer": "~2.6",
+    "apigen/apigen": "~4.1"
+  },
+  "autoload": {
+    "psr-4": { "JYYAN\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JYYAN\\Tests\\": "tests/"
+    }
+  }
+}
