@@ -8,27 +8,27 @@ A Eliza-like chat agent
  * guzzlehttp/guzzle: ^5.3
  * google/cloud: ^0.11.1
 
-     ## Installation with composer
+## Installation with composer
 
  * on your composer.json add :
-     ```
+```
      "repositories": [
      {
      "type": "git",
      "url": "https://github.com/botpartner/php-louis"
      }
      ]
-     ```
+```
  * install:
-     ```sh
+```sh
      composer require jyyan/eliza
-     ```
+```
  * enjoy
 
 
 
 
- ## Useage
+## Useage
 
 ```php
     use JYYAN\ElizaBot;
