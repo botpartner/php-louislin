@@ -1,4 +1,4 @@
-# BotPartner Louis Agent
+# BotPartner LouisLin Agent
 
 A Eliza-like chat agent
 
